@@ -1,0 +1,20 @@
+nav{
+  background-color: #2C3E50;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+a{
+  text-decoration-line: none;
+  color: aliceblue;
+}
+.navbar-brand
+{
+  font-size: 30px;
+  font-weight: 600;
+}
+.activ{
+  padding: 0.3rem;
+  border-radius: 8px;
+  background-color: aqua;
+}

@@ -1,0 +1,39 @@
+*{box-sizing: border-box;}
+.main{
+  background-color: #2C3E50;
+}
+.col-md-4
+{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+}
+.sochal
+{
+  display: flex;
+  width: 40%;
+  height: 40px;
+  justify-content: space-between;
+  padding: 20px 0;
+  /* background-color: aliceblue; */
+}
+.fa-brands
+{
+  padding: 10px;
+  background-color: aqua;
+  border: 1px solid rgb(7, 7, 6);
+}
+.info
+{
+  background-color: #1A252F;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+
+}

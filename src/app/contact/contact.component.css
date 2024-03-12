@@ -1,0 +1,42 @@
+section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  color: #2C3E50;
+  font-size:larger ;
+}
+
+.lines
+{
+  height: 50px;
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+.line
+{
+  width: 30%;
+  height: 5px;
+  background-color: #2C3E50;
+}
+.tabel
+{
+  width: 50%;
+  margin-top: 50px;
+
+}
+.tabel .input
+{
+  padding: 25px 0;
+}
+.input label
+{
+  color: rgb(26, 188, 169);
+  margin: 10px 0;
+}

@@ -1,0 +1,33 @@
+.main
+{
+  height: 600px;
+  background-color: #1ABC9C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+
+.lines
+{
+  height: 50px;
+  width: 15%;
+  /* background-color: rgb(190, 30, 30); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.line
+{
+  width: 35%;
+  height: 5px;
+  background-color: wheat;
+}
+.info
+{
+  display: flex;
+  width: 80%;
+}

@@ -1,0 +1,51 @@
+<section>
+  <h1>CONATCT SECTION</h1>
+  <div class="lines">
+    <div class="line"></div>
+    <i class="fa-solid fa-star"></i>
+    <div class="line"></div>
+  </div>
+  <div class="tabel">
+    <div class="input">
+      <label *ngIf="write1"> userName </label>
+      <input
+        #input1
+        (keyup)="laboldisplay1(input1)"
+        placeholder="userName"
+        class="form-control"
+        type="text"
+      />
+    </div>
+    <div class="input">
+      <label *ngIf="write2"> userAge </label>
+      <input
+        #input2
+        (keyup)="laboldisplay2(input2)"
+        placeholder="userAge"
+        class="form-control"
+        type="text"
+      />
+    </div>
+    <div class="input">
+      <label *ngIf="write3"> userEmail </label>
+      <input
+        #input3
+        (keyup)="laboldisplay3(input3)"
+        placeholder="userEmail"
+        class="form-control"
+        type="text"
+      />
+    </div>
+    <div class="input">
+      <label *ngIf="write4"> userPassword </label>
+      <input
+        #input4
+        (keyup)="laboldisplay4(input4)"
+        placeholder="userPassword"
+        class="form-control"
+        type="text"
+      />
+    </div>
+    <button class="btn btn-info mb-5">Send massage</button>
+  </div>
+</section>
